@@ -79,7 +79,30 @@
       "category": "books",
       "price": 30000,
       "description": "This is description about product 11 by Mezgebu M"
-    }
+    },
+    [
+      {
+        "id": 13,
+        "title": "Product 13",
+        "category": "fitness",
+        "price": 35000,
+        "description": "This is description about product 13 by MezbeguBi Api Center"
+      },
+      {
+        "id": 14,
+        "title": "Product 14",
+        "category": "books",
+        "price": 25000,
+        "description": "This is description about product 14 by MezgebuBi Api center"
+      },
+      {
+        "id": 15,
+        "title": "Product 15",
+        "category": "fitness",
+        "price": 35000,
+        "description": "This is description about product 15 by MezgebuBi Api center"
+      }
+    ]
   ],
   "reviews": [
     {
