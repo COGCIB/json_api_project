@@ -100,6 +100,13 @@
       "category": "fitness",
       "price": 35000,
       "description": "This is description about product 15 by MezgebuBi Api center"
+    },
+    {
+      "id": 16,
+      "title": "Product 16",
+      "category": "books",
+      "price": 45000,
+      "description": "This is description about product 15 by MezgebuBi Api center"
     }
   ],
   "reviews": [
