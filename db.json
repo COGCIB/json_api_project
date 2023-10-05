@@ -107,6 +107,27 @@
       "category": "books",
       "price": 45000,
       "description": "This is description about product 15 by MezgebuBi Api center"
+    },
+    {
+      "id": 17,
+      "title": "Product 17",
+      "category": "Books",
+      "price": 10000000,
+      "description": "This is description about product 17 by MulugetaBi Api center"
+    },
+    {
+      "id": 18,
+      "title": "Product 18",
+      "category": "Books",
+      "price": 100000000,
+      "description": "This is description about product 18 by MulugetaBi Api center"
+    },
+    {
+      "id": 19,
+      "title": "Product 18",
+      "category": "fitness",
+      "price": 100000000,
+      "description": "This is description about product 19 by MulugetaBi Api center"
     }
   ],
   "reviews": [
