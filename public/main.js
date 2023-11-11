@@ -1,7 +1,7 @@
 // new DataTable("#example");
 
 async function getData() {
-  const records = await fetch("https://mezgebu-bi.onrender.com/products");
+  const records = await fetch("https://mezgebu-bi.onrender.com/ics");
   const data = await records.json();
 
   console.log(data);
@@ -9,11 +9,14 @@ async function getData() {
   let tab = "";
   data.forEach((product) => {
     tab += `<tr>
-        <td>${product.id}</td>
-        <td>${product.title}</td>
-        <td>${product.category}</td>
-        <td>${product.price}</td>
-        <td>${product.description}</td>
+        <td>${product.No}</td>
+        <td>${product.NAME}</td>
+        <td>${product.FNAME}</td>
+        <td>${product.GFNAME}</td>
+        <td>${product.REQUEST_NO}</td>
+         <td>${product.DATE_ET}</td>
+        <td>${product.DATE}</td>
+        <td>${product.ፓስፖርት_የሚዎስዱበት_ቦታ}</td>
         </tr>`;
     console.log(product);
   });
@@ -21,12 +24,15 @@ async function getData() {
   $("#userData").DataTable({
     data: data,
     columns: [
-      { data: "id" },
-      { data: "title" },
-      { data: "category" },
-      { data: "price" },
+      { data: "No" },
+      { data: "NAME" },
+      { data: "FNAME" },
+      { data: "GFNAME" },
+      { data: "REQUEST_NO" },
+      { data: "DATE_ET" },
+      { data: "DATE" },
       {
-        data: "description",
+        data: "ፓስፖርት_የሚዎስዱበት_ቦታ",
       },
     ],
   });
