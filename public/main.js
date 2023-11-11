@@ -16,7 +16,7 @@ async function getData() {
         <td>${product.REQUEST_NO}</td>
          <td>${product.DATE_ET}</td>
         <td>${product.DATE}</td>
-        <td class="table-success">${product.ፓስፖርት_የሚዎስዱበት_ቦታ}</td>
+        <td class="table table-success">${product.ፓስፖርት_የሚዎስዱበት_ቦታ}</td>
         </tr>`;
     console.log(product);
   });
