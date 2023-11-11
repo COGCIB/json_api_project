@@ -161,5 +161,17 @@
       "comment": "Review 1 for product id 3 - you are being called by Mezgebu",
       "productId": 3
     }
+  ],
+  "ics": [
+    {
+      "No": 1,
+      "NAME": "Mulugeta",
+      "FNAME": "Mehari",
+      "GFNAME": "Woldeab",
+      "REQUEST_NO": "A323HD77",
+      "DATE_ET": "አርብ ጥቅምት, 30 2016 ዓ.ም.",
+      "DATE": "10 NOV 2023",
+      "ፓስፖርት የሚዎስዱበት ቦታ": "ካሳንቺስ ኢሚግሬሽን ቢሮ"
+    }
   ]
 }
